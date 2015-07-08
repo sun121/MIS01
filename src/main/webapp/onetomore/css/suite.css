@@ -1,0 +1,78 @@
+/*
+  author：张瑞红
+  time：2015-6-19
+*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,th,td,a{margin:0;padding:0;word-wrap:break-word;}
+table{border-collapse:collapse;}
+p{word-wrap:break-word} /*兼容各浏览器下文字及英文换行*/
+article,aside,footer,header,section,nav,menu,figure,figcaption hgroup,details{display:block;}
+fieldset,img{border:0;}
+ul,li{list-style:none;}
+legend{display:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}  
+body{background:url(../images/body_bg.png) repeat;color:#000;font-family:"微软雅黑",Arial, Helvetica, sans-serif;font-size:12px;}
+em,i{font-style:normal;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{zoom:1;}
+a{outline:none;}
+a:link,a:visited{color:#000;text-decoration:none;}
+a:hover{color:#1985ff;text-decoration:underline;}
+.wrap{width:1000px;margin:0 auto;}
+.suite_main{width:1000px;margin:20px auto;}
+.suite_main .tab{border-bottom:1px solid #d8d8d8;}
+.suite_main .tab li{
+	float:left;margin-right:5px;width:80px;height:30px;line-height:30px;border:1px solid #d8d8d8;cursor:pointer;color:#000;font-size:14px;text-align:center;
+	background:-moz-linear-gradient(top, #fff, #ebebeb);border-radius:6px 6px 0 0;border-bottom:none;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #ebebeb));
+}
+.suite_main .tab li.check{
+	height:31px;line-height:31px;color:#fff;border:none;
+	background:-moz-linear-gradient(top, #28b4fa, #209bd8);border-radius:6px 6px 0 0; 
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #28b4fa), color-stop(1, #209bd8));
+}
+.suite_list{margin:25px auto;}
+.suite_module{width:270px;height:220px;border-radius:8px;border:1px solid #c8d6ed;float:left;margin:25px;}
+.suite_module .suite_title{height:96px;background-color:#f2fbfe;border-radius:6px 6px 0 0;border-bottom:1px solid #c8d6ed;padding:14px 14px 0;}
+.suite_module .suite_title h2{font-size:18px;font-weight:100;height:46px;line-height:22px;margin-bottom:5px;}
+.suite_module .suite_title p{font-size:12px;color:#8fa0b3;margin-bottom:5px;}
+.suite_module .suite_bottom{position:relative;height:82px;padding:14px;}
+.suite_bottom .suite_png{
+	position:absolute;right:19px;bottom:57px;background:url(../images/ico_person.png) no-repeat;width:82px;height:94px;
+	text-align:center;line-height:180px;
+}
+.suite_bottom .suite_time h3{color:#fa5914;font-size:28px;font-weight:100;}
+.suite_bottom .suite_time h3 p{font-size:17px;margin:2px 0 10px;}
+.suite_bottom .suite_time .suite_all em{margin:0 3px;font-style:normal;}
+.suite_bottom .suite_time .suite_all span{color:#9b9b9b;margin-left:6px;}
+/*分页*/
+.page_wrap{text-align:center;}
+.page_wrap a{width:28px;height:28px;line-height:28px;color:#000;background-color:#fff;border:1px solid #d7d7d7;font-size: 12px;display:inline-block;}
+.page_wrap a.check{color:#fff;background-color:#1f99d6;border:1px solid #188ec9;}
+.page_wrap a:hover{text-decoration:none;}
+
+/*学生列表页*/
+.suite_nav{width:980px;height:36px;line-height:36px;padding:0 10px;border-radius:4px;background-color:#f5fcff;border:1px solid #cfdee6;margin:15px auto;font-size:14px;}
+.suite_nav .suite_here{float:right;color:#8fa0b3;font-size:12px;}
+.suite_nav .suite_here span{margin-left:21px;}
+.suite_nav a:link,.suite_nav a:visited,.suite_nav a:hover{color:#4a90e2;margin-right:18px;}
+.suite_left{float:left;width:154px;border-radius:4px;border:1px solid #d3d8df;}
+.suite_left h3{border-radius:4px 4px 0 0;border-bottom:1px solid #d3d8df;background-color:#f7f7f7;height:30px;line-height:30px;text-align:center;}
+.suite_left .suite_list2{padding-top:16px;}
+.suite_left .suite_list2 li{width:54px;text-align:center;float:left;margin:0 0 16px 16px;}
+.suite_left .suite_list2 span{display:inline-block;margin-top:3px;}
+.suite_right{float:right;width:834px;}
+.suite_right h3{height:30px;line-height:30px;background-color:#f7f7f7;border:1px solid #d3d8df;padding-left:10px;border-radius: 6px 6px 0 0;}
+/*规划列表模块*/
+.plan_main{}
+.plan_main .plan_module{margin:15px 0 0 30px;}
+.plan_main .plan_module .plan_title{
+	width:30px;height:30px;line-height:30px;text-align:center;border-radius:6px 6px 0 6px;font-size:20px;float:left;
+	background-color:#f7f7f7;border:1px solid #d3d8df;
+}
+.plan_main .plan_module input{
+	width:710px;height:30px;line-height:30px;padding:0 10px;font-size:16px;color:#808080;float:left;border:1px solid #d3d8df;
+	margin-left:15px;
+}
+.plan_main .plan_module .plan_time{margin:15px 0 25px 47px;color:#9b9b9b;}
+.plan_main .plan_module .plan_time .plan_txt{font-size:14px;color:#fa5914;}
+.plan_main .plan_module .plan_time em{font-size:12px;margin:0 10px;}
